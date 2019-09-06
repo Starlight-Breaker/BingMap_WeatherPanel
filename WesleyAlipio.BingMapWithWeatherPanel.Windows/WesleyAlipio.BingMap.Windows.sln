@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.88
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WesleyAlipio.BingMap.Windows", "WesleyAlipio.BingMap.Windows.csproj", "{DEAF0E0B-D995-4CC1-8B4E-3B215088561B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEAF0E0B-D995-4CC1-8B4E-3B215088561B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEAF0E0B-D995-4CC1-8B4E-3B215088561B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEAF0E0B-D995-4CC1-8B4E-3B215088561B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEAF0E0B-D995-4CC1-8B4E-3B215088561B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9DDA886-34B6-43A4-B38A-239DE0F0D75A}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,32 @@
+﻿<Window x:Class="WesleyAlipio.BingMap.Windows.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WesleyAlipio.BingMap.Windows"
+        xmlns:m="clr-namespace:Microsoft.Maps.MapControl.WPF;assembly=Microsoft.Maps.MapControl.WPF"
+        mc:Ignorable="d"
+        Title="BingMapWithWeatherPanel" Height="512.461" Width="1117.981">
+
+    <Grid Margin="0,0,2,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="470*"/>
+            <ColumnDefinition Width="77*"/>
+            <ColumnDefinition Width="245*"/>
+        </Grid.ColumnDefinitions>
+        <m:Map
+            Center="14.8781, 120.4546" 
+            ZoomLevel="14.4" 
+            MouseDoubleClick="Map_MouseDoubleClick"
+            Name="MyMap" Margin="0,0,10,0"
+            
+            
+            />
+        <Label x:Name="lblSummary" Content="Label" Grid.Column="1" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="247" Height="67" FontSize="22" Grid.ColumnSpan="2"/>
+        <Label x:Name="lblWindSpeed" Content="Label" HorizontalAlignment="Left" Margin="10,106,-145,0" VerticalAlignment="Top" FontSize="24" Width="460" Grid.ColumnSpan="2" Grid.Column="1"/>
+        <Label x:Name="lblHumidity" Content="Label" HorizontalAlignment="Left" Margin="10,148,-145,0" VerticalAlignment="Top" RenderTransformOrigin="-1.447,0.481" FontSize="24" Width="460" Grid.ColumnSpan="2" Grid.Column="1"/>
+        <Label x:Name="lblPressure" Content="Label" HorizontalAlignment="Left" Margin="10,195,-145,0" VerticalAlignment="Top" RenderTransformOrigin="-5.138,2.019" FontSize="24" Width="460" Grid.ColumnSpan="2" Grid.Column="1"/>
+        <Label x:Name="lblTemperature" Content="Label" HorizontalAlignment="Left" Margin="10,59,-145,0" VerticalAlignment="Top" FontSize="24" Width="460" Grid.ColumnSpan="2" Grid.Column="1"/>
+
+    </Grid>
+</Window>
